@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Screen Shot 2013-05-29 at 3.22.44 PM" tilewidth="64" tileheight="64" spacing="1" margin="1">
+  <image source="dontstarve.png" width="986" height="582"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzlmddrG0EQxi8VUpwesBNDnAJOgVRQCjjtQSly2sOl2Cl6UIqc9qAU//n5BDcwTHZmd/ZOPoU8/EBIu3vzzezMzq36RVH0G2AT2Ay2gK1gG9je0NobyT6wHxwAB8EhcHgK7OLMCkJjjoEFcBycACfBKcf6c+AIOArmle9i63TBPXAfPAAPQc/QEdJyHlwAF8ElcBlcSdSxCE6DM+AsOKd8F1unBM/BC/ASvAIrit+smOTSAVfBNXAd3FC+i60zAO/BB/ARfAJDZWzKHmuLEfgBfoJf4DdYN8bHtAwY0j/amrG9Tc/15oxFKF/qxiZlb+fkTK6m3HVS9nZOzkgfeLTkaPLuba/d5IOUOdNUA1LslvbzOW3q+F4x/jwXIaaZx6Yp+3ZU7AS7wG4wA/aAvQEtcr7cYyEtEk88U5llWjRNXpu02EySxeLv3JNaYmuE4iQ1ab831ct3Ki0cjw6eNzlarF7e21d2BPJs9/rGg9XLL4Gb4Ba4De6Au4615dnOf+sytF6ndDzL8vkyeAQegyfgKXjG5s4E4PVJnu38uWVFSs9Wl1XwGrwBb8E78ft8AK3WSqhHTX0f0fT2ErSvgc/gC/gKvhXxXAzFJcSoIqVn0zSsVJD2HsOyMQWKSUwL9WopPRvXoWkaMl2heNbVwjWFdKT0nJRHVl1Yr7QQdewP5b2mwwPlkVUXyA9EHR2hvOexGY/JueugPPLUhVQ89ZK0jD/nnkmeuuDB6xd6T4+dSSl6Yuenh1y/yDMpx6bSMY/2sTU+5x1XnkmUv6HYaj1sSt7T85aqMTm9g2e8dvc0rOaEelie97FnLVcarLHa2enJHcrfUGzHcxaKcA9L82I6VisN1ljt7PTkTmnoGM+xarTlXxqzJjRb/UDIx6m5Q77S5lg1OkWH9FmTtU5qtvaVVaOtfaL5zKordXSQFm1fWe8Nmj3aHub1ocmzNKZjjPXeoNlj1X8r/nV1UI54156UPblM0kf/E90i/n6zUbZo/yfQ3VPo7pjsLgVtarHuu0Na+szugeBf00F2jwRtxiRHh1Zf2oxJ7L8UqaVv2NqbYh0SSwPdhbWhpSkd1NdwLXLsNOmwejPq7UhL7H2rTazejPep/N61ybvKptD6oFDPTRqJPyfALhk=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object x="460" y="208" width="58" height="42"/>
+  <object name="SpawnPoint" x="1741" y="1736"/>
+ </objectgroup>
+</map>

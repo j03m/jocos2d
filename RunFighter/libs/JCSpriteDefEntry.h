@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "jocos2d.h"
+#import "cocos2d.h"
+#import "AnimationType.h"
 
-@interface JCSpriteDefEntry : NSObject{}
-
-
-
-@property (assign) NSString *state;
+@interface JCSpriteDefEntry : NSObject
+@property (assign) int state;
+@property (assign) int transitionTo;
 @property (assign) NSString *nameFormat;
 @property (assign) int frames;
 @property (assign) float delay;

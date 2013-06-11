@@ -11,8 +11,6 @@
 		5D31B584172FFB82000DED1C /* ryu-packed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D31B582172FFB82000DED1C /* ryu-packed.png */; };
 		5D31B58617308E6E000DED1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D31B58517308E6E000DED1C /* Default-568h@2x.png */; };
 		5D8B95391756885E00C16870 /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B95371756885E00C16870 /* meta_tiles.png */; };
-		5D8B9545175688A800C16870 /* wizard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B9543175688A800C16870 /* wizard.plist */; };
-		5D8B9546175688A800C16870 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B9544175688A800C16870 /* wizard.png */; };
 		5D8B954A17568F9700C16870 /* dontstarve.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B954917568F9700C16870 /* dontstarve.png */; };
 		5D8B954C1756D4F000C16870 /* mymap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B954B1756D4F000C16870 /* mymap.tmx */; };
 		5D8EAD551728B0BA001203C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8EAD541728B0BA001203C5 /* QuartzCore.framework */; };
@@ -145,6 +143,8 @@
 		5D8EAEFF172969AD001203C5 /* FightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8EAEFE172969AD001203C5 /* FightLayer.m */; };
 		5DB494D0175D115700A988D1 /* JCSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB494CF175D115700A988D1 /* JCSprite.m */; };
 		5DB494D317610F4600A988D1 /* JCSpriteDefEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB494D217610F4600A988D1 /* JCSpriteDefEntry.m */; };
+		5DB494E61766C54B00A988D1 /* wizard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DB494E41766C54B00A988D1 /* wizard.plist */; };
+		5DB494E71766C54B00A988D1 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB494E51766C54B00A988D1 /* wizard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,8 +156,6 @@
 		5D8B95401756888A00C16870 /* move.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = move.caf; path = ../../../../images/back/TileGameResources/move.caf; sourceTree = "<group>"; };
 		5D8B95411756888A00C16870 /* pickup.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pickup.caf; path = ../../../../images/back/TileGameResources/pickup.caf; sourceTree = "<group>"; };
 		5D8B95421756888A00C16870 /* TileMap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TileMap.caf; path = ../../../../images/back/TileGameResources/TileMap.caf; sourceTree = "<group>"; };
-		5D8B9543175688A800C16870 /* wizard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = wizard.plist; path = ../../../../images/wizard/wizard.plist; sourceTree = "<group>"; };
-		5D8B9544175688A800C16870 /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wizard.png; path = ../../../../images/wizard/wizard.png; sourceTree = "<group>"; };
 		5D8B954917568F9700C16870 /* dontstarve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dontstarve.png; sourceTree = "<group>"; };
 		5D8B954B1756D4F000C16870 /* mymap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mymap.tmx; sourceTree = "<group>"; };
 		5D8B954E1756DDE000C16870 /* CommonProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
@@ -431,6 +429,9 @@
 		5DB494D117610F4600A988D1 /* JCSpriteDefEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCSpriteDefEntry.h; path = libs/JCSpriteDefEntry.h; sourceTree = "<group>"; };
 		5DB494D217610F4600A988D1 /* JCSpriteDefEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCSpriteDefEntry.m; path = libs/JCSpriteDefEntry.m; sourceTree = "<group>"; };
 		5DB494D41761141800A988D1 /* jocos2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jocos2d.h; sourceTree = "<group>"; };
+		5DB494D51762645C00A988D1 /* AnimationType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationType.h; sourceTree = "<group>"; };
+		5DB494E41766C54B00A988D1 /* wizard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wizard.plist; sourceTree = "<group>"; };
+		5DB494E51766C54B00A988D1 /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,10 +513,10 @@
 		5D8EAD671728B0BA001203C5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5DB494E41766C54B00A988D1 /* wizard.plist */,
+				5DB494E51766C54B00A988D1 /* wizard.png */,
 				5D8B954B1756D4F000C16870 /* mymap.tmx */,
 				5D8B954917568F9700C16870 /* dontstarve.png */,
-				5D8B9543175688A800C16870 /* wizard.plist */,
-				5D8B9544175688A800C16870 /* wizard.png */,
 				5D8B953F1756888A00C16870 /* hit.caf */,
 				5D8B95401756888A00C16870 /* move.caf */,
 				5D8B95411756888A00C16870 /* pickup.caf */,
@@ -906,6 +907,7 @@
 				5DB494D117610F4600A988D1 /* JCSpriteDefEntry.h */,
 				5DB494D217610F4600A988D1 /* JCSpriteDefEntry.m */,
 				5DB494D41761141800A988D1 /* jocos2d.h */,
+				5DB494D51762645C00A988D1 /* AnimationType.h */,
 			);
 			name = jocos2d;
 			sourceTree = "<group>";
@@ -978,10 +980,10 @@
 				5D31B584172FFB82000DED1C /* ryu-packed.png in Resources */,
 				5D31B58617308E6E000DED1C /* Default-568h@2x.png in Resources */,
 				5D8B95391756885E00C16870 /* meta_tiles.png in Resources */,
-				5D8B9545175688A800C16870 /* wizard.plist in Resources */,
-				5D8B9546175688A800C16870 /* wizard.png in Resources */,
 				5D8B954A17568F9700C16870 /* dontstarve.png in Resources */,
 				5D8B954C1756D4F000C16870 /* mymap.tmx in Resources */,
+				5DB494E61766C54B00A988D1 /* wizard.plist in Resources */,
+				5DB494E71766C54B00A988D1 /* wizard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,24 +7,26 @@
 //
 
 #import "CCLayer.h"
-#import "cocos2d.h"
+#import "jocos2d.h"
 #import "CommonProtocols.h"
-@interface FightLayer : CCLayer
-typedef enum {
-    walking,
-    idle,
-} AnimationState;
 
-@property (nonatomic, strong) CCSprite *ryu;
-@property (nonatomic, strong) CCAction *ryuStanceAction;
-@property (nonatomic, strong) CCAction *ryuWalkAction;
-@property (nonatomic, strong) CCAction *ryuMoveAction;
+
+typedef enum {
+    stateIdle =0,
+    stateWalking =1,
+    statePunching=2
+} states;
+
+
+@interface FightLayer : CCLayer
+@property (nonatomic, strong) JCSprite *ryu;
 @property (strong) CCTMXTiledMap *tileMap;
 @property (strong) CCTMXLayer *background;
 @property (assign) UITouch *currentTouch;
 @property BOOL nextMove;
+@property (nonatomic, strong) NSMutableArray *baddies;
 
-@property AnimationState state;
-- (void) postInit;
+
+
 @end
 

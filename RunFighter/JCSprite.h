@@ -6,23 +6,24 @@
 //  Copyright 2013 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "jocos2d.h"
-#import "JCSpriteDefEntry.h"
-typedef enum {
-    once,
-    loop,
-} AnimationType;
 
+#import "cocos2d.h"
+#import "JCSpriteDefEntry.h"
 
 @interface JCSprite : CCSprite {}
-@property (nonatomic, strong) NSMutableDictionary* animations;
-@property (nonatomic, strong) CCSpriteBatchNode *batch;
-- (void) setState: (NSString) state;
+@property (nonatomic, retain) NSMutableDictionary* animations;
+@property (nonatomic, retain) CCSpriteBatchNode *batch;
+@property (nonatomic) int state;
+@property (nonatomic) int idle;
+@property (nonatomic) int moving;
+@property (nonatomic, strong) CCAction *currentMove;
+@property int nextState;
+- (void) setState: (int) state;
 - (void) animationDone;
 - (void) addDef:(JCSpriteDefEntry *) entry;
-- (void) initWithPlist:(NSString *) plist Sheet:(NSString *) sheet andInitialState: (NString *) initialState;
-
+- (id) initWithPlist:(NSString *) plist Sheet:(NSString *) sheet andInitialState: (NSString *) initialState;
+- (void) moveTo:(CGPoint) location withState:(int) movementState callbackTarget:target onComplete:(SEL) callback;
+- (void) moveTo:(CGPoint) location withState:(int) movementState;
 //move to
 
 @end

@@ -6,10 +6,9 @@
 //
 //
 
-#ifndef RunFighter_jocos2d_h
-#define RunFighter_jocos2d_h
-
 #import "cocos2d.h"
+#import "AnimationType.h"
 #import "JCSprite.h"
 #import "JCSpriteDefEntry.h"
-#endif
+
+

@@ -52,4 +52,9 @@ Moving around is also super simple. You just tell JCSprite where to go and how t
     CGPoint touchLocation = [self convertTouchToNodeSpace:_currentTouch];
     [_ryu moveTo:touchLocation withState:stateWalking andVelocity:25.0 callbackTarget:self onComplete:@selector(ryuMoveEnded)];
 
+* Why is it called Jocos2d?
+
+j03m + cocos2d = jocos2d 
+
+Sure, terrible joke. 
 

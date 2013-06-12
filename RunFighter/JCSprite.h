@@ -22,8 +22,8 @@
 - (void) animationDone;
 - (void) addDef:(JCSpriteDefEntry *) entry;
 - (id) initWithPlist:(NSString *) plist Sheet:(NSString *) sheet andInitialState: (NSString *) initialState;
-- (void) moveTo:(CGPoint) location withState:(int) movementState callbackTarget:target onComplete:(SEL) callback;
-- (void) moveTo:(CGPoint) location withState:(int) movementState;
+- (void) moveTo:(CGPoint) location withState:(int) movementState andVelocity:(float) velocity callbackTarget:target onComplete:(SEL) callback;
+- (void) moveTo:(CGPoint) location withState:(int) movementState andVelocity:(float) velocity;
 //move to
 
 @end

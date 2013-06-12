@@ -65,9 +65,7 @@
 }
 
 
-- (void) moveTo:(CGPoint) location withState:(int) movementState callbackTarget:target onComplete:(SEL) callback{
-    CGSize screenSize = [[CCDirector sharedDirector] winSize];
-    float velocity = screenSize.width / 3.0;
+- (void) moveTo:(CGPoint) location withState:(int) movementState andVelocity:(float) velocity callbackTarget:target onComplete:(SEL) callback{
     CGPoint moveDifference = ccpSub(location, self.position);
     float distanceToMove = ccpLength(moveDifference);
     float moveDuration = distanceToMove / velocity;
@@ -86,9 +84,8 @@
 
 }
 
-- (void) moveTo:(CGPoint) location withState:(int) movementState{
-    CGSize screenSize = [[CCDirector sharedDirector] winSize];
-    float velocity = screenSize.width / 3.0;
+- (void) moveTo:(CGPoint) location withState:(int) movementState andVelocity:(float) velocity{
+
     CGPoint moveDifference = ccpSub(location, self.position);
     float distanceToMove = ccpLength(moveDifference);
     float moveDuration = distanceToMove / velocity;

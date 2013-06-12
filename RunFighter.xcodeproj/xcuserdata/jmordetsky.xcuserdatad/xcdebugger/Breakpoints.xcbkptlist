@@ -147,11 +147,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669698.746166"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "142"
-         endingLineNumber = "142"
+         startingLineNumber = "139"
+         endingLineNumber = "139"
          landmarkName = "@implementation JCSprite"
          landmarkType = "3">
       </FileBreakpoint>
@@ -160,11 +160,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669698.746166"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "116"
-         endingLineNumber = "116"
+         startingLineNumber = "113"
+         endingLineNumber = "113"
          landmarkName = "-animationDone"
          landmarkType = "5">
       </FileBreakpoint>
@@ -186,11 +186,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669698.746166"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "122"
-         endingLineNumber = "122"
+         startingLineNumber = "119"
+         endingLineNumber = "119"
          landmarkName = "-setState:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -225,11 +225,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669698.746166"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "139"
-         endingLineNumber = "139"
+         startingLineNumber = "136"
+         endingLineNumber = "136"
          landmarkName = "-objectForKey:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -251,11 +251,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669698.746166"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "131"
-         endingLineNumber = "131"
+         startingLineNumber = "128"
+         endingLineNumber = "128"
          landmarkName = "-setState:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -329,12 +329,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392664750.222396"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "89"
-         endingLineNumber = "89"
-         landmarkName = "-moveTo:withState:"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
+         landmarkName = "-moveTo:withState:andVelocity:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -394,12 +394,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/JCSprite.m"
-         timestampString = "392669863.3626"
+         timestampString = "392749406.710582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "111"
-         endingLineNumber = "111"
+         startingLineNumber = "108"
+         endingLineNumber = "108"
          landmarkName = "-moveEnded"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "RunFighter/FightLayer.m"
+         timestampString = "392749475.311309"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "197"
+         endingLineNumber = "197"
+         landmarkName = "-moveHandler"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

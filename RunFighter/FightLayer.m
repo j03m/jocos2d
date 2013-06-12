@@ -193,7 +193,9 @@
 - (void) moveHandler {
 
     CGPoint touchLocation = [self convertTouchToNodeSpace:_currentTouch];
-    [_ryu moveTo:touchLocation withState:stateWalking callbackTarget:self onComplete:@selector(ryuMoveEnded)];
+    CGSize screenSize = [[CCDirector sharedDirector] winSize];
+    float velocity = screenSize.width/3.0;
+    [_ryu moveTo:touchLocation withState:stateWalking andVelocity:velocity callbackTarget:self onComplete:@selector(ryuMoveEnded)];
 
     
     [self moveBaddies];
@@ -205,12 +207,15 @@
     CGPoint touchLocation = [self convertTouchToNodeSpace:_currentTouch];
     int sliceSize = 360/[_baddies count]; //size of slice
     int count = 0;
+    CGSize screenSize = [[CCDirector sharedDirector] winSize];
+    float velocity = screenSize.width/5.0;
+
     for (JCSprite *baddy in _baddies)
     {
         // Move this baddy to his circle spot near where ryu is headed
         CGPoint circleSpot = [self getSpotWithLocation:touchLocation andAngle:sliceSize*count];
         count++;
-        [baddy moveTo:circleSpot withState:stateWalking];
+        [baddy moveTo:circleSpot withState:stateWalking andVelocity:velocity];
     }
 }
 

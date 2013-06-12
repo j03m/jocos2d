@@ -7,7 +7,6 @@
 //
 
 #import "MainScene.h"
-#import "Background.h"
 #import "FightLayer.h"
 
 @implementation MainScene

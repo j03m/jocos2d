@@ -8,7 +8,6 @@
 
 #import "CCLayer.h"
 #import "jocos2d.h"
-#import "CommonProtocols.h"
 
 
 typedef enum {

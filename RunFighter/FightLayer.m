@@ -7,7 +7,6 @@
 //
 
 #import "FightLayer.h"
-#import "CommonProtocols.h"
     
 //punch on a double click
 //limit walk area

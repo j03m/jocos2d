@@ -32,11 +32,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "391625222.253259"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "39"
-         endingLineNumber = "39"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
          landmarkName = "@implementation FightLayer"
          landmarkType = "3">
       </FileBreakpoint>
@@ -45,11 +45,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "178"
-         endingLineNumber = "178"
+         startingLineNumber = "177"
+         endingLineNumber = "177"
          landmarkName = "-ccTouchBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -58,11 +58,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "161"
-         endingLineNumber = "161"
+         startingLineNumber = "160"
+         endingLineNumber = "160"
          landmarkName = "-tileMapAndHero"
          landmarkType = "5">
       </FileBreakpoint>
@@ -71,11 +71,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "391625222.253259"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "36"
-         endingLineNumber = "36">
+         startingLineNumber = "35"
+         endingLineNumber = "35">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -121,11 +121,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "164"
-         endingLineNumber = "164"
+         startingLineNumber = "163"
+         endingLineNumber = "163"
          landmarkName = "-tileMapAndHero"
          landmarkType = "5">
       </FileBreakpoint>
@@ -173,11 +173,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "184"
-         endingLineNumber = "184"
+         startingLineNumber = "183"
+         endingLineNumber = "183"
          landmarkName = "-ccTouchMoved:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -342,50 +342,50 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
+         timestampString = "392748375.370481"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "99"
+         endingLineNumber = "99"
+         landmarkName = "-makeAndPlaceBaddy:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "RunFighter/FightLayer.m"
+         timestampString = "392748375.370481"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "97"
+         endingLineNumber = "97"
+         landmarkName = "-makeAndPlaceBaddy:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "RunFighter/FightLayer.m"
+         timestampString = "392748375.370481"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "95"
+         endingLineNumber = "95"
+         landmarkName = "-makeAndPlaceBaddy:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "RunFighter/FightLayer.m"
+         timestampString = "392748375.370481"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "100"
          endingLineNumber = "100"
-         landmarkName = "-makeAndPlaceBaddy:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "98"
-         endingLineNumber = "98"
-         landmarkName = "-makeAndPlaceBaddy:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669454.702184"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "96"
-         endingLineNumber = "96"
-         landmarkName = "-makeAndPlaceBaddy:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "RunFighter/FightLayer.m"
-         timestampString = "392669494.558524"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "101"
-         endingLineNumber = "101"
          landmarkName = "-makeAndPlaceBaddy:"
          landmarkType = "5">
       </FileBreakpoint>

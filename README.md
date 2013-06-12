@@ -50,6 +50,6 @@ Really just semantics. Jocos let's just define a sprite from a given plist and p
 Moving around is also super simple. You just tell JCSprite where to go and how to look while it moves:
 
     CGPoint touchLocation = [self convertTouchToNodeSpace:_currentTouch];
-    [_ryu moveTo:touchLocation withState:stateWalking callbackTarget:self onComplete:@selector(ryuMoveEnded)];
+    [_ryu moveTo:touchLocation withState:stateWalking andVelocity:25.0 callbackTarget:self onComplete:@selector(ryuMoveEnded)];
 
 
